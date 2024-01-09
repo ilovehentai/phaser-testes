@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      @import url(//fonts.googleapis.com/css?family=Geo);
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #3498db;
+      }
+      .hiddenText {
+        font-family: Geo;
+        visibility: hidden;
+        height: 0;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser-arcade-physics.min.js"></script>
+    <script src="js/load.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/play.js"></script>
+    <script src="js/game.js"></script>
+  </head>
+  <body>
+    <p class="hiddenText">.</p>
+    <div id="game"></div>
+  </body>
+</html>

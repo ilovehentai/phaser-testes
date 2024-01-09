@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "es2022",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "inlineSources": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "composite": true,
+    "importHelpers": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "lib": ["es6", "dom", "dom.iterable", "scripthost"],
+    "typeRoots": ["./node_modules/phaser/types"],
+    "types": ["Phaser"]
+  }
+}
